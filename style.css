@@ -1,0 +1,91 @@
+body{
+    background-color: #122C34;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    min-width: 100vh;
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#header{
+    height: 100px;
+    text-align: center;
+}
+
+.categories{
+    background-color: #224870;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    margin-top: 20px;
+    min-height: 100px;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+.category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100px;
+    border: 3px solid #1c2d61;
+    border-radius: 15px;
+}
+
+.selected{
+    background-color: #122C34;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #4EA5D9;
+}
+.card{
+    flex-basis: 1;
+    flex-grow: 1;
+    min-width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: #224870;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.cardImg{
+    width: 200px;
+    height: 200px;
+}
+.cardData p{
+    padding: 10px;
+}
+.cardCategory{
+    width: 60px;
+    text-align: center;
+}
+.cardCategory p{
+    border-radius: 100%;
+    border:1px solid white;
+    padding: 5px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
